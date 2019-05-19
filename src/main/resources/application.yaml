@@ -1,0 +1,13 @@
+
+
+server:
+  port: 9090
+  context-path: /boot
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cmfz
+    username: root
+    password: 123456
+mybatis:
+  type-aliases-package: com.baizhi.entity
