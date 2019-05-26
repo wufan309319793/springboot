@@ -22,6 +22,7 @@ public class TestMapper {
         List<Employee> list = employeeMapper.selectAll();
         for (Employee employee : list) {
             System.out.println(employee);
+            System.out.println("111111111111");
         }
 
 
